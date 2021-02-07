@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+h1 {
+  line-height: 150%;
+  font-size: 40px;
+  letter-spacing: -0.2px;
+}
+header {
+  background: rgb(192, 193, 255);
+  color: aqua;
+}
+.hero {
+  height: 300px;
+}
+
+.proyectos-detalles {
+  width: 500px;
+}
+
+.proyecto-imagenContainer {
+  width: 500px;
+}
+.hero {
+  height: 550px;
+  background-image: url(../images/portada.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #2965a1;
+
+  /*position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;*/
+}
+.project {
+  border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink;
+  border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid;
+  border: 1px solid gray;
+}
+h1 {
+  margin: 100px 150px 70px 30px;
+  margin-top: 0px;
+  padding-top: 180px;
+}
+/*.project{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+.project{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+*/
+
+li {
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  font-size: 10pt;
+  font-family: "GothamBook";
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background 0.5s;
+  border-right: 1px solid #319b8f;
+  text-decoration: none;
+}
+.seprincipal {
+  color: black;
+}
+.seprincipal strong {
+  color: rgb(115, 13, 231);
+}
+nav figure {
+  padding-left: 50px;
+}
+.butoncss {
+  margin-left: 300px;
+  padding: 30px 15px;
+  background-color: turquoise;
+  border-radius: 5px;
+  font-size: 30px;
+  border: none;
+  color: white;
+}
+
+/*
+body{
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f0f4fb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.article-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
+    gap: hidden;
+
+}
+.article-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+
+}
+.article-card{
+    background: white;
+    border-radius: auto;
+    transition: 0.3s;
+
+}
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2, green, blue, alpha);
+    cursor: pointer;
+}
+.article-content{
+    padding: 2rem;
+}
+.article-content .card-title{
+    margin: 1rem;
+    color: pink;
+
+}
+.article-content .card-date{
+    margin: 1rem;
+    color: blue;
+}
+.card-title{
+    padding-right: 300px;
+}
+*/
+
+.article-title {
+  padding-top: 10px;
+  padding-left: 25%;
+}
+.article-p {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.article-image {
+  padding-top: 10px;
+  padding-left: 25%;
+}
+
+.tratamientos h2 {
+  padding-left: 10%;
+}
+.nosotros h2 {
+  padding-left: auto;
+}
+.nosotros figure {
+  padding-left: 25%;
+}
+.nosotros figure img {
+  padding-left: auto;
+}
+.nosotros h3 {
+  padding-left: 10%;
+  color: blue;
+}
+
+.nosotros .procedimientos-url {
+  border-radius: 5px;
+  font-size: 30px;
+  border: none;
+  color: blue;
+}
+
+.fotos-imagen {
+  border-radius: 10px;
+}
+
+section form input {
+  margin-left: 300px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  color: black;
+}
+section form button {
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  border: none;
+  color: black;
+}
+body {
+  height: 550px;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+
+  margin: 0;
+  padding: 0;
+  background: url(../images/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.tratamientos h2 {
+  padding-left: 25%;
+  background: cyan;
+  color: black;
+}
+footer {
+  background: white;
+}
+figcaption {
+  font-size: 30px;
+  padding-left: 25%;
+}
